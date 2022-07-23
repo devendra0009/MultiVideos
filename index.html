@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multi Video Player</title>
+    <link href="https://unpkg.com/video.js@7/dist/video-js.min.css" rel="stylesheet" />
+    <link href="https://unpkg.com/@videojs/themes@1/dist/fantasy/index.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="img">
+
+        <div class="video-js-responsive-container box">
+            <video id="my-video" class="video-js vjs-theme-fantasy" controls
+                poster="https://peach.blender.org/wp-content/uploads/title_anouncement.jpg" data-setup="{}">
+                <source src="http://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4" />
+                <!-- <!-- <p class="vjs-no-js"> -->
+                To view this video please enable JavaScript, and consider upgrading to a
+                web browser that
+                <a href="https://videojs.com/html5-video-support/" target="_blank">supports HTML5 video</a>
+                </p> -->
+            </video>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://vjs.zencdn.net/7.20.1/video.min.js"></script>
+</body>
+
+</html>
